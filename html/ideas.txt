@@ -53,7 +53,7 @@ Fun facts
 
 Cool hover effects + animations
 
-Optional bonus (for higher grade):
+Optional bonus :
 
 A “Random Planet Fact” generator
 
