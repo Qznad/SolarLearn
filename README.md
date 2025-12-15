@@ -53,27 +53,6 @@ SolarLearn uses **LocalStorage** to simulate user authentication:
 
 This approach was chosen to focus on JavaScript logic and DOM manipulation.
 
----
-
-## Project Structure
-SolarLearn/
-├── assets/                 # Images and backgrounds
-├── css/                    # Stylesheets
-│   ├── style.css
-│   └── lognsign.css
-├── js/                     # JavaScript logic
-│   ├── auth.js
-│   ├── planets.js
-│   └── app.js
-├── pages/                  # HTML pages
-│   ├── index.html
-│   ├── planets.html
-│   ├── login.html
-│   └── signup.html
-└── README.md
-
-
----
 
 ## How to Run the Project
 1. Clone the repository:
