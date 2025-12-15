@@ -57,20 +57,21 @@ This approach was chosen to focus on JavaScript logic and DOM manipulation.
 
 ## Project Structure
 SolarLearn/
-├── assets/ # Images and backgrounds
-├── css/ # Stylesheets
-│ ├── style.css
-│ └── lognsign.css
-├── js/ # JavaScript logic
-│ ├── auth.js
-│ ├── planets.js
-│ └── app.js
-├── pages/ # HTML pages
-│ ├── index.html
-│ ├── planets.html
-│ ├── login.html
-│ └── signup.html
+├── assets/                 # Images and backgrounds
+├── css/                    # Stylesheets
+│   ├── style.css
+│   └── lognsign.css
+├── js/                     # JavaScript logic
+│   ├── auth.js
+│   ├── planets.js
+│   └── app.js
+├── pages/                  # HTML pages
+│   ├── index.html
+│   ├── planets.html
+│   ├── login.html
+│   └── signup.html
 └── README.md
+
 
 ---
 
