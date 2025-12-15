@@ -1,0 +1,62 @@
+Final Website Structure
+1 ------------ Home Page (index.html)
+
+Beautiful space background
+
+Welcome message
+
+“Start Exploring” button
+
+After login → show: “Welcome back, Yassine!” (dynamic JS)
+
+2 ------------- Signup Page (signup.html)
+
+Form:
+
+Full name
+
+Email (validated)
+
+Password (validated)
+
+Save user in localStorage
+
+Redirect to login
+
+3 ------------- Login Page (login.html)
+
+Email + password
+
+Validate against localStorage
+
+Redirect to Home + show personalized message
+
+4 ------------- Planets Page (planets.html)
+
+This is the special page required by the TP.
+
+We will include:
+
+A grid of planets with images (Sun to Neptune)
+
+When you click a planet → show details dynamically using JS:
+
+Discovery date
+
+Temperature
+
+Composition
+
+Age
+
+Fun facts
+
+Cool hover effects + animations
+
+Optional bonus (for higher grade):
+
+A “Random Planet Fact” generator
+
+A mini search bar (type “Mars” → highlight Mars)
+
+Lightweight Bootstrap modal for planet info

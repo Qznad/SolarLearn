@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarLearn – Planets</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-dark navbar-expand-lg bg-black fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">SolarLearn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+
+  <li class="nav-item guest-only">
+    <a class="nav-link" href="signup.html">Sign Up</a>
+  </li>
+  <li class="nav-item guest-only">
+    <a class="nav-link" href="login.html">Login</a>
+  </li>
+
+  <li class="nav-item user-only d-none">
+    <span class="nav-link text-info fw-bold" id="welcomeUser"></span>
+  </li>
+  <li class="nav-item user-only d-none">
+    <button class="btn btn-sm btn-outline-danger ms-lg-3" id="logoutBtn">
+      Sign Out
+    </button>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="planets.html">Planets</a>
+  </li>
+</ul>
+
+    </div>
+  </div>
+</nav>
+
+<section class="hero p-1">
+    <div class="container hero-content">
+        <h1 class="display-4 fw-bold">Our <span class="accent">Solar</span> System</h1>
+        <p class="lead">
+            Explore the planets of our solar system, from the scorching surface of Mercury
+            to the distant icy worlds beyond.
+        </p>
+    </div>
+</section>
+
+<section class="planet-section dark">
+    <article class="planet container reveal up">
+        
+        <div class="planet-image">
+            <img src="../assets/sun.jpg" alt="Sun" loading="lazy">
+        </div>
+        <div class="planet-text">
+            <h2>Sun</h2>
+            <p class="user-only">
+                The Sun is the star at the centre of the Solar System. It is a massive, nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy from its surface mainly as visible light and infrared radiation with 10% at ultraviolet energies. It is the main source of energy for life on Earth.
+            </p>
+            <p class="guest-only">
+                The Sun is the star at the centre of the Solar System. It is a ...
+            </p>
+        </div>
+    </article>
+</section>
+
+<section class="planet-section">
+    <article class="planet container reveal">
+        <div class="planet-text">
+            <h2>Mercury</h2>
+            <p class="user-only">
+                Mercury is the smallest planet and closest to the Sun. Its surface is rocky and heavily cratered, with extreme temperature swings—from scorching heat during the day to freezing cold at night. Mercury has no atmosphere to protect it from the Sun’s rays or meteoroid impacts.
+            </p>
+            <p class="guest-only">
+                Mercury is the smallest planet and closest to the Sun. Its surface is ...
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/mercury0.png" alt="Mercury">
+        </div>
+    </article>
+</section>
+
+
+<section class="planet-section dark">
+    <article class="planet container reverse reveal left">
+        <div class="planet-text">
+            <h2>Venus</h2>
+            <p class="user-only"> 
+                Venus is the hottest planet in the Solar System, covered in thick clouds of sulfuric acid. Its runaway greenhouse effect makes the surface hotter than Mercury, despite being further from the Sun. Venus rotates slowly and in the opposite direction of most planets.
+            </p>
+            <p class="guest-only">
+                Venus is the hottest planet in the Solar System, covered in ...
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/venus.jpg" alt="Venus">
+        </div>
+    </article>
+</section>
+
+<section class="planet-section">
+    <article class="planet container reveal">
+        <div class="planet-text">
+            <h2>Earth</h2>
+            <p class="user-only">
+                Earth is the only planet known to support life. It has liquid water, a protective atmosphere, and diverse ecosystems. Its surface is a mix of oceans, continents, and ice, with a magnetic field that shields life from harmful solar radiation.
+            </p>
+            <p class="guest-only">
+                Earth is the only planet known to support life. It has ...
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/earth0.png" alt="Earth">
+        </div>
+    </article>
+</section>
+
+<section class="planet-section dark">
+    <article class="planet container reverse reveal left">
+        <div class="planet-text">
+            <h2>Mars</h2>
+            <p class="user-only">
+                Mars, the Red Planet, is known for its rusty color due to iron oxide on its surface. It has the largest volcano in the Solar System, Olympus Mons, and signs of ancient water. Mars is a key target for future human exploration.
+            </p>
+            <p class="guest-only">
+                Mars, the Red Planet, is known for its rusty color due to ...
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/mars.jpg" alt="Mars">
+        </div>
+    </article>
+</section>
+<section class="planet-section guest-only">
+    <article class="col planet container reveal up">
+        <div class="planet-text">
+            <h2>Want to Explore More?</h2>
+            <p>
+                Create an account to unlock detailed information about all the planets,
+                moons, and other celestial bodies in our solar system.
+            </p>
+        </div>
+        <div class="planet-image">
+            <a href="signup.html" class="btn btn-lg btn-primary bg-black me-3 border-0 guest-only">
+                Create Account
+            </a>
+        </div>
+    </article>
+</section>
+<section class="planet-section user-only">
+  <article class="planet container reveal right">
+    <div class="planet-text">
+      <h2>Jupiter</h2>
+      <p>
+        Jupiter is the largest planet in our Solar System, a gas giant made mostly of hydrogen and helium. Its Great Red Spot is a massive storm, and it has many moons that orbit around it.
+      </p>
+    </div>
+
+    <div class="planet-image text-center">
+      <img src="../assets/jupiter.png" alt="Jupiter" style="margin-bottom:8px;">
+    </div>
+  </article>
+</section>
+<section class="planet-section dark user-only">
+    <article class="planet container reverse reveal up">
+        <div class="planet-text">
+            <h2>Saturn</h2>
+            <p>
+                Saturn is known for its spectacular ring system, made of ice, rock, and dust. Like Jupiter, it is a gas giant composed mainly of hydrogen and helium. Saturn has more than 80 moons, including Titan, which has a thick atmosphere and lakes of liquid methane. Saturn’s low density makes it the only planet in our Solar System that could float in water!
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/saturn.jpg" alt="Saturn">
+        </div>
+    </article>
+</section>
+<section class="planet-section user-only">
+    <article class="col planet container reveal left">
+        <div class="planet-text">
+            <h2>Uranus</h2>
+            <p>
+                Uranus is an ice giant with a striking blue-green color due to methane in its atmosphere. Unlike most planets, Uranus rotates on its side, giving it extreme seasonal variations. It has faint rings and 27 known moons. Uranus is very cold, with temperatures dropping below -200°C, making it one of the coldest planets in the Solar System.
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/uranus.png" alt="Uranus">
+        </div>
+    </article>
+</section>
+<section class="planet-section dark user-only">
+    <article class="planet container reverse reveal up">
+        <div class="planet-text">
+            <h2>Neptune</h2>
+            <p>
+                Neptune is another ice giant, famous for its deep blue color and supersonic winds, the fastest in the Solar System. It has 14 known moons, including Triton, which orbits in the opposite direction of Neptune’s rotation. Neptune is far from the Sun, which means it receives very little sunlight and has a very cold, dynamic atmosphere.
+            </p>
+        </div>
+        <div class="planet-image">
+            <img src="../assets/neptune.jpg" alt="Neptune">
+        </div>
+    </article>
+</section>
+<section class="planet-section text-center user-only reveal up">
+  <h2 class="fw-bold">Beyond Neptune…</h2>
+  <p class="text-muted">
+    The Solar System continues with dwarf planets, asteroids, and the Oort Cloud.
+  </p>
+</section>
+
+<button id="backToTop" title="Back to top">↑</button>
+
+
+<footer class="site-footer">
+  <div class="container text-center">
+    <p>© 2025 SolarLearn · Exploring the Solar System</p>
+    <small>Made for educational purposes</small>
+  </div>
+</footer>
+
+
+
+<script src="../js/app.js"></script>
+<script src="../js/auth.js"></script>
+<script src="../js/planets.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

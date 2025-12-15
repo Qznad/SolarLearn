@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,12)),
+        url("../assets/bg.png");
+    display: flex;
+    flex-direction: column;
+  }
+  .auth-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  }
+  .auth-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .nav-link.active {
+  color: #9fd3ff !important;
+}
